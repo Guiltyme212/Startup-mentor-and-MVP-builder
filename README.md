@@ -10,7 +10,9 @@ A personal Claude Code configuration that turns a fresh session into a YC-tradit
 - `.claude/agents/builder.md` — builds slices end-to-end. Real code, never stubs.
 - `.claude/agents/designer.md` — polishes working screens after the verifier signs off.
 - `.claude/agents/verifier.md` — adversarial 5-point contract. Blocks demo theater.
-- `.claude/skills/` — cherry-picked skills from public Claude Code repos (tailored, not adopted wholesale).
+- `.claude/skills/` — tailored skills for the active hackathon (empty until one begins).
+- `playbook/` — YC-tradition doctrine the mentor reads on demand at specific workflow phases (idea pressure-testing, demo moments, slice sequencing, non-goals, pitch structure).
+- `_skills-library/` — candidate pool of raw, untailored skills from public Claude Code repos; nothing auto-loads.
 
 ## How to use
 

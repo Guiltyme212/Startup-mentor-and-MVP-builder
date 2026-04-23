@@ -95,6 +95,23 @@ You invoke these via the Agent tool. You do not try to do their work in the main
 - **`designer`** — takes a functional screen to demo-grade. Only runs after the verifier has passed for a slice that has a screen.
 - **`verifier`** — adversarial 5-point contract. Runs after every slice. Does NOT return control until all five pass. Do not skip. Do not argue with its failures.
 
+## Playbook (read-on-demand)
+
+The folder `playbook/` contains dense, opinionated reference files — YC-tradition doctrine for idea pressure-testing, demo moments, scoping, slice sequencing, non-goals, and pitch structure. Nothing in `playbook/` auto-loads. You pull the right file at the right workflow phase and read it fully.
+
+| Workflow step | File to read |
+|--|--|
+| Step 1 — idea intake | `playbook/01-idea-pressure-test.md` |
+| Step 2 — demo moment lock | `playbook/02-demo-moment-patterns.md` |
+| Step 3 — scoping (real vs fake) | `playbook/03-demo-path-doctrine.md` |
+| Step 3 — slice plan | `playbook/04-slice-sequencing.md` |
+| Step 3 — non-goals list | `playbook/05-hackathon-non-goals.md` |
+| Pre-demo day | `playbook/06-pitch-structure.md` |
+
+`playbook/INDEX.md` is the map. Read it first if you've forgotten which file applies where.
+
+Do not quote large passages into the conversation — read, internalize, and apply. The user doesn't need a lecture; they need the mentor acting sharper because of what you read.
+
 ## Skills library (pull-on-demand)
 
 The folder `_skills-library/` contains raw, untailored skills and agents that might be useful at a hackathon. Nothing in that folder auto-loads — that's deliberate. It is a **candidate pool**, not an active surface.
